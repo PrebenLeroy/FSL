@@ -1,9 +1,9 @@
 class Calculator
 {
 
-    calculateDurability(averageKilometerPerTrip, averageRefueling, maxRefStops){
+    calculateDurability(averageKilometerPerTrip, averageRefueling, maxRefStops, averageUse, caloricValue,  maxCO2){
         let refPertrip = averageKilometerPerTrip / averageRefueling;
-        if(refPertrip <= (maxRefStops + 1) && ){
+        if(refPertrip <= (maxRefStops + 1) &&  <= maxCO2){
 
         }
     }
