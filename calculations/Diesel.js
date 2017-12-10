@@ -1,4 +1,7 @@
 class Diesel{
+
+    
+
     calculateFuelScanLight(currentFuel, vehicletype){
         if(currentFuel.toLowerCase() === "diesel" && (vehicletype === "SCV" || vehicletype === "MCV")){
             return "Referentie";
